@@ -1,4 +1,4 @@
-# International Livestock Research Institute Website
+# Rangelands Initiative Website
 
 # License
 
