@@ -1,0 +1,87 @@
+// Bootstrap library.
+@import 'bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+
+body{
+  font-size: 16px;
+  padding: 2em;
+}
+
+section#header{
+  background-color: @brand-primary;
+  color: @text-with-bg;
+  div#top-bar{
+    background-color: @text-with-bg;
+  }
+  div#main-nav{
+    padding: 20px;
+    nav.primary{
+      >ul{
+        margin: 0 0 0 0;
+        padding:  0 0 0 0;
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        >li {
+          float: none;
+          flex-basis: 0;
+          flex-grow: 1;
+          border-left: solid 2px @text-with-bg;
+          min-height: 4em;
+          a{
+            color: @text-with-bg;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            padding-top: 0px;
+            &:hover, &:active, &:focus {
+              background-color: transparent !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer#footer{
+  background-color: lighten(@background-gray, 10%);
+  border-top: solid 30px lighten(@background-gray, 20%);;
+  padding: .5em 1em 1em;
+  div.row{
+    display: flex;
+    > div{
+      &:first-child{
+        border-right: solid 1px darken(@background-gray, 5%);
+      }
+      &:nth-child(2){
+        border-left: solid 1px lighten(@background-gray, 5%);
+        border-right: solid 1px darken(@background-gray, 5%);
+      }
+      &:last-child{
+        border-left: solid 1px lighten(@background-gray, 5%);
+      }
+    }
+  }
+  section.block{
+    color: darken(@background-gray, 50%);
+    h2.block-title{
+      margin: 0px 0px 5px;
+      font-size: 1em;
+      text-transform: uppercase;
+    }
+    address{
+      font-size: .9em;
+    }
+  }
+  a{
+    &:hover{
+      color: @brand-quaternary;
+      text-decoration: none;
+    }
+  }
+}
