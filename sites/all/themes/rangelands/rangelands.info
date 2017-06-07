@@ -9,7 +9,8 @@ base theme = bootstrap
 ;;;;;;;;;;;;;;;;;;;;;
 
 regions[top_left] = 'Top Left'
-regions[top_right] = 'Top Right'
+regions[top_right_1] = 'Top Right 1'
+regions[top_right_2] = 'Top Right 2'
 regions[navigation] = 'Navigation'
 regions[highlight] = 'Highlight'
 regions[help] = 'Help'

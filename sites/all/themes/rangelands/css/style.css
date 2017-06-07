@@ -7542,16 +7542,43 @@ a.icon-after .glyphicon {
 }
 body {
   font-size: 16px;
-  padding: 2em;
+  padding: 0em 2em;
+  background-color: #F3F1EB;
 }
-section#header {
-  background-color: #B45B17;
-  color: #fff;
+section#header div#top-bar ul li {
+  display: inline-block;
+  margin-left: 0px;
 }
-section#header div#top-bar {
-  background-color: #fff;
+section#header div#top-bar ul li a {
+  padding-left: 0px;
+  font-size: .8em !important;
+  color: #6c6c6c;
+}
+section#header div#top-bar ul li:hover a {
+  background-color: transparent !important;
+  color: #929292;
+}
+section#header div#top-bar form.form-search {
+  margin-top: 5px;
+}
+section#header div#top-bar form.form-search div.input-group input {
+  border: #B45B17 solid 1px;
+  border-radius: 20px;
+  padding: 0px 10px;
+}
+section#header div#top-bar form.form-search div.input-group button {
+  background-color: transparent;
+  border: none;
+}
+section#header div#top-bar form.form-search div.input-group button span {
+  color: #B45B17;
+}
+section#header div#top-bar form.form-search div.form-group {
+  margin-bottom: 3px;
 }
 section#header div#main-nav {
+  background-color: #B45B17;
+  color: #fff;
   padding: 20px;
 }
 section#header div#main-nav nav.primary > ul {
@@ -7560,6 +7587,8 @@ section#header div#main-nav nav.primary > ul {
   width: 100%;
   display: flex;
   align-items: stretch;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 section#header div#main-nav nav.primary > ul > li {
   float: none;
@@ -7573,42 +7602,129 @@ section#header div#main-nav nav.primary > ul > li a {
   text-transform: capitalize;
   font-weight: 400;
   font-size: 1.2em;
-  margin-bottom: 20px;
-  padding-top: 0px;
+  padding: 0px 15px 5px;
+}
+section#header div#main-nav nav.primary > ul > li a:hover {
+  color: #000;
 }
 section#header div#main-nav nav.primary > ul > li a:hover,
 section#header div#main-nav nav.primary > ul > li a:active,
 section#header div#main-nav nav.primary > ul > li a:focus {
   background-color: transparent !important;
 }
+section#header div#main-nav nav.primary > ul > li a span {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: .8em;
+  color: #d9d9d9;
+  text-transform: lowercase;
+}
+section#main {
+  background-color: #fbfaf7;
+}
+section#main div.col-sm-8 {
+  padding: 0 0 0 0;
+}
+section#main div.col-sm-8 div#highlight {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 30%, rgba(46, 56, 75, 0.3) 60%, rgba(46, 56, 75, 0.6) 100%), url('../images/jpg/sheep_on_pasture_in_inner_mongolia_rangelands_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px;
+  color: #fff;
+  padding: 10px 100px;
+}
+section#main div.col-sm-8 div#highlight h1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 1.3em 0 0 0;
+  font-size: 2.5em;
+}
+section#main div.col-sm-8 div#highlight p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  padding: 1.3em 0 0 0;
+  font-size: 1.7em;
+}
+section#main div.col-sm-8 div#about-intro {
+  padding: 50px 100px;
+  background-color: #fff;
+}
+section#main div.col-sm-8 div#about-intro p {
+  font-family: Merriweather,Georgia,serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #535353;
+}
+section#main div.col-sm-4 > div {
+  margin-left: -5px;
+  margin-right: -15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+section#main div.col-sm-4 div.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+section#main div.col-sm-4 div.description:hover h3,
+section#main div.col-sm-4 div.description:hover p {
+  color: #e19e1d;
+}
+section#main div.col-sm-4 div.description h3 {
+  margin: 0 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+section#main div.col-sm-4 div.description p {
+  display: none;
+}
+section#main div#we-are {
+  background-image: url('../images/jpg/we-are.jpg');
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+section#main div#we-want {
+  background-image: url('../images/jpg/we-want.jpg');
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+section#main div#we-seek {
+  background-image: url('../images/jpg/we-seek.jpg');
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
 footer#footer {
-  background-color: #b9b9b9;
-  border-top: solid 30px #d2d2d2;
-  padding: .5em 1em 1em;
+  padding: 5em 1em 5em;
 }
 footer#footer div.row {
   display: flex;
 }
-footer#footer div.row > div:first-child {
-  border-right: solid 1px #929292;
-}
 footer#footer div.row > div:nth-child(2) {
-  border-left: solid 1px #acacac;
-  border-right: solid 1px #929292;
-}
-footer#footer div.row > div:last-child {
-  border-left: solid 1px #acacac;
+  border-left: solid 2px #c5c5c5;
+  border-right: solid 2px #c5c5c5;
 }
 footer#footer section.block {
-  color: #202020;
+  color: #5f5f5f;
+  font-family: 'Raleway', sans-serif;
 }
 footer#footer section.block h2.block-title {
-  margin: 0px 0px 5px;
+  font-family: 'Poppins', sans-serif;
   font-size: 1em;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  color: #393939;
 }
 footer#footer section.block address {
   font-size: .9em;
+  line-height: 2;
 }
 footer#footer a:hover {
   color: #1A3A78;
