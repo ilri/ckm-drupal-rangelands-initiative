@@ -1,19 +1,3 @@
-(function () {
-    // CKEDITOR.on('instanceReady', function(e){
-    //     var instance = e.editor;
-    //     var rules = {
-    //         indent : false,
-    //         breakBeforeOpen : false,
-    //         breakAfterOpen : false,
-    //         breakBeforeClose : false,
-    //         breakAfterClose : true
-    //     };
-    //     instance.dataProcessor.writer.setRules( 'p',rules);
-    //     instance.dataProcessor.writer.setRules( 'div',rules);
-    // });
-
-
-})();
 jQuery(document).ready(function () {
     jQuery("div.focus").on("mouseenter", function (e) {
         jQuery(this).find("p")
@@ -30,4 +14,6 @@ jQuery(document).ready(function () {
         jQuery("<span class='desc'>" + desc + "</span>").appendTo(jQuery(this));
         jQuery(this).attr("title", "");
     });
+    jQuery("body.page-contact form.contact-form").addClass("col-md-8 col-md-offset-2");
+    jQuery("body.page-contact form.contact-form button").addClass("btn-primary");
 });

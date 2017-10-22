@@ -94,8 +94,8 @@
             <div class="col-md-3">
                 <div class="navbar-header">
                     <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                        <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/logo.svg"
-                             onerror="this.onerror=null; this.src='<?php print $base_path; ?>sites/all/themes/rangelands/images/png/logo.png'"
+                        <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/logo_new.svg"
+                             onerror="this.onerror=null; this.src='<?php print $base_path; ?>sites/all/themes/rangelands/images/png/logo_new.png'"
                              class="logo" width="230px" height="auto">
                     </a>
 
@@ -141,25 +141,23 @@
 
 <section id="main">
     <div class="main-container <?php print $container_class; ?>">
-        <div class="row">
-            <div class="col-sm-12">
-                <a id="main-content"></a>
-                <?php print render($title_prefix); ?>
-                <?php if (!empty($title)): ?>
-                    <h1 class="page-header"><?php print $title; ?></h1>
-                <?php endif; ?>
-                <?php print render($title_suffix); ?>
-                <?php print $messages; ?>
-                <?php if (!empty($tabs)): ?>
-                    <?php print render($tabs); ?>
-                <?php endif; ?>
-                <?php if (!empty($page['help'])): ?>
-                    <?php print render($page['help']); ?>
-                <?php endif; ?>
-                <?php if (!empty($action_links)): ?>
-                    <ul class="action-links"><?php print render($action_links); ?></ul>
-                <?php endif; ?>
-            </div>
+        <div>
+            <a id="main-content"></a>
+            <?php print render($title_prefix); ?>
+            <?php if (!empty($title)): ?>
+                <h1 class="page-header"><?php print $title; ?></h1>
+            <?php endif; ?>
+            <?php print render($title_suffix); ?>
+            <?php print $messages; ?>
+            <?php if (!empty($tabs)): ?>
+                <?php print render($tabs); ?>
+            <?php endif; ?>
+            <?php if (!empty($page['help'])): ?>
+                <?php print render($page['help']); ?>
+            <?php endif; ?>
+            <?php if (!empty($action_links)): ?>
+                <ul class="action-links"><?php print render($action_links); ?></ul>
+            <?php endif; ?>
         </div>
 
         <div class="row">
@@ -188,24 +186,30 @@
 
 <footer id="footer">
     <div class="page-container <?php print $container_class; ?>">
-        <?php if (!empty($page['footer_col_1']) || !empty($page['footer_col_2']) || !empty($page['footer_col_3'])): ?>
+        <?php if (!empty($page['footer_col_1']) || !empty($page['footer_col_2']) || !empty($page['footer_col_3']) || !empty($page['footer_col_4'])): ?>
             <div class="row">
 
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <?php if (!empty($secondary_nav) || !empty($page['footer_col_1'])): ?>
                         <?php print render($page['footer_col_1']); ?>
                     <?php endif; ?>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <?php if (!empty($page['footer_col_2'])): ?>
                         <?php print render($page['footer_col_2']); ?>
                     <?php endif; ?>
                 </div>
 
-                <div class="col-sm-4 pull-right text-right">
+                <div class="col-sm-3">
                     <?php if (!empty($page['footer_col_3'])): ?>
                         <?php print render($page['footer_col_3']); ?>
+                    <?php endif; ?>
+                </div>
+
+                <div class="col-sm-3">
+                    <?php if (!empty($page['footer_col_4'])): ?>
+                        <?php print render($page['footer_col_4']); ?>
                     <?php endif; ?>
                 </div>
 

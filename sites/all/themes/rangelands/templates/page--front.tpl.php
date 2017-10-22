@@ -94,8 +94,8 @@
             <div class="col-md-3">
                 <div class="navbar-header">
                     <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                        <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/logo.svg"
-                             onerror="this.onerror=null; this.src='<?php print $base_path; ?>sites/all/themes/rangelands/images/png/logo.png'"
+                        <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/logo_new.svg"
+                             onerror="this.onerror=null; this.src='<?php print $base_path; ?>sites/all/themes/rangelands/images/png/logo_new.png'"
                              class="logo" width="230px" height="auto">
                     </a>
 
@@ -140,82 +140,38 @@
 
 
 <section id="main" class="clearfix">
-    <div class="col-sm-8 col-lg-9">
-        <div id="highlight">
-            <h1>International Land Coalition Rangelands Initiative</h1>
-            <p>Established in 2010, the International Land Coalition (ILC)
-                Rangelands Initiative facilitates learning between, and provides
-                technical support to government and other actors working
-                to make rangelands more tenure secure.</p>
-        </div>
-        <div id="about-intro">
-            <p>The ILC is a membership organization, comprising 207 members
-                including United Nations agencies and other multilateral institutions,
-                CGIAR centres and other research organizations, non-governmental
-                organizations, land rights networks, civil society organizations. ILC
-                members seek to realize land governance for and with people at
-                country level, responding to the needs and protecting the rights of the
-                women, men and communities living on and from the land.</p>
-            <p>
-                ILC supports its members to achieve this through the implementation
-                of three strategic objectives: connecting members to each other
-                and to change makers beyond the Coalition, creating opportunities
-                for dialogue, mutual learning, and joint action; mobilizing members
-                by facilitating informed and effective action, through accessible and
-                useable knowledge and tools, and by creating opportunities for
-                innovation, piloting and scaling up; and influencing key decision makers,
-                including governments, partners, and corporate actors and investors
-                to engage with civil society as legitimate and necessary interlocutors
-                and partners in achieving land governance for and with people.
-            </p>
-        </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-3">
-        <div id="we-are" class="focus">
-            <div class="description">
-                <h3>Connect</h3>
-                <p>ILC connects members with each other and change-makers beyond the Coaltion</p>
-            </div>
-        </div>
-        <div id="we-want" class="focus">
-            <div class="description">
-                <h3>Mobilise</h3>
-                <p>ILC mobilises members by reinforcing and equipping their efforts with the necessary
-                    knowledge, capacity, and opportunities</p>
-            </div>
-        </div>
-        <div id="we-seek" class="focus">
-            <div class="description">
-                <h3>Influence</h3>
-                <p>ILC influences key decision-makers, including governments, their partners and
-                    corporate actors</p>
-            </div>
-        </div>
+    <div class="col-sm-12">
+        <?php print render($page['front_intro']); ?>
     </div>
 </section>
 
 
 <footer id="footer">
     <div class="page-container <?php print $container_class; ?>">
-        <?php if (!empty($page['footer_col_1']) || !empty($page['footer_col_2']) || !empty($page['footer_col_3'])): ?>
+        <?php if (!empty($page['footer_col_1']) || !empty($page['footer_col_2']) || !empty($page['footer_col_3']) || !empty($page['footer_col_4'])): ?>
             <div class="row">
 
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <?php if (!empty($secondary_nav) || !empty($page['footer_col_1'])): ?>
                         <?php print render($page['footer_col_1']); ?>
                     <?php endif; ?>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <?php if (!empty($page['footer_col_2'])): ?>
                         <?php print render($page['footer_col_2']); ?>
                     <?php endif; ?>
                 </div>
 
-                <div class="col-sm-4 pull-right text-right">
+                <div class="col-sm-3">
                     <?php if (!empty($page['footer_col_3'])): ?>
                         <?php print render($page['footer_col_3']); ?>
+                    <?php endif; ?>
+                </div>
+
+                <div class="col-sm-3">
+                    <?php if (!empty($page['footer_col_4'])): ?>
+                        <?php print render($page['footer_col_4']); ?>
                     <?php endif; ?>
                 </div>
 

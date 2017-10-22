@@ -1,0 +1,7 @@
+name = 'ILRI Publications Block'
+files[js][] = 'js/underscore-min.js'
+files[js][] = 'js/publications_block.js'
+files[css][] = 'css/publications_block.css'
+version = 1
+dependencies[] = d3
+views = 3

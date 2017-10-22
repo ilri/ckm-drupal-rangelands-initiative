@@ -1,0 +1,53 @@
+span#loading {
+  display: none;
+}
+div.page-container.page-container-content {
+  background-color: transparent;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+div.page-container.page-container-content .item > div {
+  background-color: #fff;
+  height: 300px;
+  overflow: hidden;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+div.page-container.page-container-content .item h5 {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 0px;
+}
+div.page-container.page-container-content .item img {
+  width: 100%;
+}
+div.page-container.page-container-content .item ul {
+  margin: 0 0 0 10px;
+  padding: 0 0 0 0;
+  list-style-type: none;
+  font-size: .9em;
+}
+ul.pagination > li input {
+  position: relative;
+  float: left;
+  padding: 6px 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+ul.pagination > li input:focus {
+  outline: none;
+}
+form#publication-search div.advanced {
+  display: none;
+  margin-top: 20px;
+}
+form#publication-search div.advanced label {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+form#publication-search div.advanced input#subject {
+  text-transform: uppercase;
+}
