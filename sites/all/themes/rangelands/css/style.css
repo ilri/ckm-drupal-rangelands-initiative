@@ -7617,7 +7617,7 @@ section#header div#main-nav nav.primary > ul > li a span {
   font-style: italic;
   font-weight: 300;
   font-size: .8em;
-  color: #bfbfbf;
+  color: #808080;
   text-transform: lowercase;
 }
 section#main {
@@ -7764,13 +7764,9 @@ div#about-intro div.col-sm-4 p {
 }
 footer#footer {
   padding: 20px;
-  background-color: #38CDF7;
 }
 footer#footer div.container-fluid {
   padding: 0 100px;
-}
-footer#footer a {
-  color: #fff;
 }
 footer#footer a:hover {
   color: #000 !important;
@@ -7782,7 +7778,6 @@ footer#footer section.block h2.block-title {
   font-size: 1em;
   font-weight: bolder;
   text-transform: capitalize;
-  color: #fff;
 }
 footer#footer section.block ul.nav {
   margin: 0 0 0 0;
@@ -7793,14 +7788,14 @@ footer#footer section.block ul.nav li a {
   padding: 5px;
 }
 footer#footer section.block ul.nav li a:hover {
-  background-color: #0abff2;
+  background-color: transparent !important;
 }
 footer#footer section.block address {
   font-size: .9em;
   line-height: 2;
 }
 footer#footer a:hover {
-  color: #38CDF7;
+  color: #843E0D;
   text-decoration: none;
 }
 footer#footer div#social-media {

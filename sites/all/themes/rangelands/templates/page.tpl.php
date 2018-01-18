@@ -94,9 +94,9 @@
             <div class="col-md-3">
                 <div class="navbar-header">
                     <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                        <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/logo_new.svg"
-                             onerror="this.onerror=null; this.src='<?php print $base_path; ?>sites/all/themes/rangelands/images/png/logo_new.png'"
-                             class="logo" width="230px" height="auto">
+                        <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/rangelands-logo.svg"
+                             onerror="this.onerror=null; this.src='<?php print $base_path; ?>sites/all/themes/rangelands/images/png/rangelands-logo.png'"
+                             class="logo" width="300px" height="auto">
                     </a>
 
                     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
