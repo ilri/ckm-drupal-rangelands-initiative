@@ -127,8 +127,8 @@ section#main {
         font-weight: 300;
         width: 75%;
         margin: 0 auto;
-        color: darken(@text-with-bg, 15%);
-        font-size: .8em;
+        color: darken(@text-with-bg, 10%);
+        font-size: 1.2em;
         text-align: center;
         a {
           color: #fff;
@@ -297,6 +297,12 @@ footer#footer {
   }
   div#social-media{
     text-align: center;
+    img{
+      filter: grayscale(1.0);
+      &:hover{
+        filter: grayscale(0.0);
+      }
+    }
   }
 }
 
