@@ -7655,8 +7655,8 @@ section#main div.col-sm-12 div#highlight p {
   font-weight: 300;
   width: 75%;
   margin: 0 auto;
-  color: #d9d9d9;
-  font-size: .8em;
+  color: #e6e6e6;
+  font-size: 1.2em;
   text-align: center;
 }
 section#main div.col-sm-12 div#highlight p a {
@@ -7800,6 +7800,12 @@ footer#footer a:hover {
 }
 footer#footer div#social-media {
   text-align: center;
+}
+footer#footer div#social-media img {
+  filter: grayscale(1);
+}
+footer#footer div#social-media img:hover {
+  filter: grayscale(0);
 }
 div#contact-info {
   padding: 10px 40px;

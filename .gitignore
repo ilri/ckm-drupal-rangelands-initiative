@@ -8,3 +8,6 @@ sites/*/private
 
 # Ignore PHPStorm folder
 .idea
+
+# Ignore DB Exports
+_db/rangelands_db.sql
