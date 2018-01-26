@@ -105,6 +105,61 @@ section#main {
   }
   div.col-sm-12 {
     padding: 0 0 0 0;
+    section#block-views-home-slideshow-block{
+      span{
+        &.vscc_controls_previous{
+          a{
+            position: absolute;
+            top: 50%;
+            z-index: 100;
+          }
+        }
+        &.vscc_controls_next{
+          a{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            z-index: 100;
+          }
+        }
+
+      }
+      div.views-slideshow-cycle-main-frame-row-item{
+        position: relative;
+        div.views-field.views-field-title {
+          position:absolute;
+          top: 150px;
+          left: 20%;
+          text-align: center;
+          padding: 1.3em 0 0 0;
+          font-size: 2em;
+          text-transform: uppercase;
+          font-family: Optima;
+          text-align: center;
+          width: 60%;
+          color: #fff;
+        }
+        p {
+          position:absolute;
+          top: 350px;
+          left: 15%;
+          width: 70%;
+          color: darken(@text-with-bg, 10%);
+          font-size: 1.2em;
+          font-weight: 300;
+          text-align: center;
+          a {
+            color: #fff;
+            text-decoration: underline;
+            &:hover {
+              color: #000;
+              background-color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
     div#highlight {
       position: relative;
       background-image: url('../images/jpg/sheep_on_pasture_in_inner_mongolia_rangelands_2.jpg');
@@ -143,15 +198,20 @@ section#main {
     }
 
     div#support {
-      padding: 40px 100px;
+      padding: 10px 100px;
       background-color: @brand-tertiary;
       text-align: center;
+      a{
+        img {
+          max-height: 50px;
+        }
+      }
       p {
         width: 60%;
-        font-size: 1.4em;
+        font-size: .9em;
         font-weight: lighter;
         line-height: 2em;
-        margin: 20px auto;
+        margin: 20px auto 0 auto;
         a {
           color: #fff !important;
           text-decoration: none !important;
@@ -497,3 +557,28 @@ div#cross-cutting {
     }
   }
 }
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+

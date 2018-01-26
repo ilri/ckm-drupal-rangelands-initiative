@@ -91,7 +91,7 @@
     <div id="main-nav" class="<?php print $container_class; ?>">
         <div class="row page-container">
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="navbar-header">
                     <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
                         <img src="<?php print $base_path; ?>sites/all/themes/rangelands/images/svg/rangelands-logo.svg"
@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div class="navbar-collapse collapse">
                     <?php if (!empty($primary_nav)): ?>
                         <nav class="primary clearfix" role="navigation">
