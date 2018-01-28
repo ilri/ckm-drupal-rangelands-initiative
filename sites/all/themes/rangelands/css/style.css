@@ -7920,6 +7920,9 @@ div#partners div.section-heading.small {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
+div#partners div.section-heading.small span {
+  text-transform: none;
+}
 div#partners div.section-heading-small {
   margin: 0px 0 10px;
   font-weight: bold;
