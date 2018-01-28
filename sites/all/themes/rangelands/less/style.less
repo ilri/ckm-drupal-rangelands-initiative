@@ -95,7 +95,7 @@ section#header {
   }
 }
 
-section#main {
+section.main {
   background-color: #fbfaf7;
   div.main-container.container-fluid {
     padding: 0 0 0 0;
@@ -105,17 +105,17 @@ section#main {
   }
   div.col-sm-12 {
     padding: 0 0 0 0;
-    section#block-views-home-slideshow-block{
-      span{
-        &.vscc_controls_previous{
-          a{
+    section#block-views-home-slideshow-block {
+      span {
+        &.vscc_controls_previous {
+          a {
             position: absolute;
             top: 50%;
             z-index: 100;
           }
         }
-        &.vscc_controls_next{
-          a{
+        &.vscc_controls_next {
+          a {
             position: absolute;
             top: 50%;
             right: 0;
@@ -124,10 +124,10 @@ section#main {
         }
 
       }
-      div.views-slideshow-cycle-main-frame-row-item{
+      div.views-slideshow-cycle-main-frame-row-item {
         position: relative;
         div.views-field.views-field-title {
-          position:absolute;
+          position: absolute;
           top: 150px;
           left: 20%;
           text-align: center;
@@ -140,7 +140,7 @@ section#main {
           color: #fff;
         }
         p {
-          position:absolute;
+          position: absolute;
           top: 350px;
           left: 15%;
           width: 70%;
@@ -199,9 +199,9 @@ section#main {
 
     div#support {
       padding: 10px 100px;
-      background-color: @brand-tertiary;
+      background-color: @background-gray;
       text-align: center;
-      a{
+      a {
         img {
           max-height: 50px;
         }
@@ -306,12 +306,12 @@ div#about-intro {
 footer#footer {
   padding: 20px;
   //background-color: @brand-quaternary;
-  div.container-fluid{
+  div.container-fluid {
     padding: 0 100px;
   }
-  a{
+  a {
     //color: @text-with-bg;
-    &:hover{
+    &:hover {
       color: #000 !important;
     }
   }
@@ -331,14 +331,14 @@ footer#footer {
       text-transform: capitalize;
       //color: @text-with-bg;
     }
-    ul.nav{
+    ul.nav {
       margin: 0 0 0 0;
-      padding:  0 0 0 0;
-      li{
-        a{
+      padding: 0 0 0 0;
+      li {
+        a {
           font-size: .8em;
           padding: 5px;
-          &:hover{
+          &:hover {
             background-color: transparent !important; //darken(@brand-quaternary, 10%);
           }
         }
@@ -355,11 +355,11 @@ footer#footer {
       text-decoration: none;
     }
   }
-  div#social-media{
+  div#social-media {
     text-align: center;
-    img{
+    img {
       filter: grayscale(1.0);
-      &:hover{
+      &:hover {
         filter: grayscale(0.0);
       }
     }
@@ -562,18 +562,22 @@ div#cross-cutting {
   width: 100%;
   float: left;
 }
+
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
   width: 100% !important;
   height: auto;
 }
+
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
   height: auto;
 }
+
 .views_slideshow_cycle_main .field-content {
   max-width: 100%;
   width: 100%;
 }
+
 .views_slideshow_cycle_main .field-content img {
   max-width: 100%;
   width: 100%;
@@ -582,3 +586,80 @@ div#cross-cutting {
   padding: 0;
 }
 
+article.card {
+  margin-bottom: 20px;
+  > div {
+    background-color: #fff;
+  }
+  div.card-info {
+    padding: 20px;
+    height: 250px;
+    h3.card-title {
+      font-family: Optima;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    div.card-additional-info {
+      font-weight: lighter;
+      font-size: .85em;
+      font-style: italic;
+      margin: 0 0 15px;
+    }
+    div.card-details {
+      font-size: 13px;
+    }
+  }
+}
+
+article.news {
+  margin: 0;
+  background-color: #fff;
+  padding: 40px;
+  .news-date {
+    font-weight: lighter;
+    font-style: italic;
+    border-bottom: solid 1px @brand-primary;
+    margin-bottom: 40px;
+  }
+  .news-details {
+    font-size: .9em;
+  }
+  .news-source {
+    margin-top: 20px;
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
+
+section#front-left-right {
+  padding: 40px 80px;
+  background-color: @brand-secondary;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-transform: none;
+  }
+
+  h2.block-title {
+    font-family: Optima;
+  }
+  .views-row {
+    min-height: 65px;
+    margin-bottom: 20px;
+
+    .views-field-title{
+      margin-bottom: 10px;
+      font-size: .9em;
+    }
+
+    .views-field-field-date,
+    .views-field-field-start-date{
+      color: #efefef;
+      font-style: italic;
+      font-size: .8em;
+      font-weight: lighter;
+    }
+  }
+}

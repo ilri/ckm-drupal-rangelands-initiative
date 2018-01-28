@@ -139,7 +139,7 @@
 <?php endif; ?>
 
 
-<section id="main">
+<section class="main clearfix">
     <div class="main-container <?php print $container_class; ?>">
         <div>
             <a id="main-content"></a>

@@ -139,9 +139,26 @@
 <?php endif; ?>
 
 
-<section id="main" class="clearfix">
+<section class="main clearfix">
     <div class="col-sm-12">
         <?php print render($page['front_intro']); ?>
+    </div>
+</section>
+
+<?php if (!empty($page['front_left']) || !empty($page['front_right'])): ?>
+<section id="front-left-right" class="clearfix">
+    <div class="col-sm-6 col-xs-12">
+        <?php print render($page['front_left']); ?>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+        <?php print render($page['front_right']); ?>
+    </div>
+</section>
+<?php endif; ?>
+
+<section class="main clearfix">
+    <div class="col-sm-12">
+        <?php print render($page['front_footer']); ?>
     </div>
 </section>
 

@@ -7620,33 +7620,33 @@ section#header div#main-nav nav.primary > ul > li a span {
   color: #808080;
   text-transform: lowercase;
 }
-section#main {
+section.main {
   background-color: #fbfaf7;
 }
-section#main div.main-container.container-fluid {
+section.main div.main-container.container-fluid {
   padding: 0 0 0 0;
 }
-section#main div.main-container.container-fluid ul.nav-tabs {
+section.main div.main-container.container-fluid ul.nav-tabs {
   margin: 20px;
 }
-section#main div.col-sm-12 {
+section.main div.col-sm-12 {
   padding: 0 0 0 0;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block span.vscc_controls_previous a {
+section.main div.col-sm-12 section#block-views-home-slideshow-block span.vscc_controls_previous a {
   position: absolute;
   top: 50%;
   z-index: 100;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block span.vscc_controls_next a {
+section.main div.col-sm-12 section#block-views-home-slideshow-block span.vscc_controls_next a {
   position: absolute;
   top: 50%;
   right: 0;
   z-index: 100;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item {
+section.main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item {
   position: relative;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item div.views-field.views-field-title {
+section.main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item div.views-field.views-field-title {
   position: absolute;
   top: 150px;
   left: 20%;
@@ -7658,7 +7658,7 @@ section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-sl
   width: 60%;
   color: #fff;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item p {
+section.main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item p {
   position: absolute;
   top: 350px;
   left: 15%;
@@ -7668,16 +7668,16 @@ section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-sl
   font-weight: 300;
   text-align: center;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item p a {
+section.main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item p a {
   color: #fff;
   text-decoration: underline;
 }
-section#main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item p a:hover {
+section.main div.col-sm-12 section#block-views-home-slideshow-block div.views-slideshow-cycle-main-frame-row-item p a:hover {
   color: #000;
   background-color: #fff;
   text-decoration: none;
 }
-section#main div.col-sm-12 div#highlight {
+section.main div.col-sm-12 div#highlight {
   position: relative;
   background-image: url('../images/jpg/sheep_on_pasture_in_inner_mongolia_rangelands_2.jpg');
   background-size: cover;
@@ -7687,7 +7687,7 @@ section#main div.col-sm-12 div#highlight {
   color: #fff;
   padding: 250px 100px 20px 100px;
 }
-section#main div.col-sm-12 div#highlight h1 {
+section.main div.col-sm-12 div#highlight h1 {
   padding: 1.3em 0 0 0;
   font-size: 2em;
   text-transform: uppercase;
@@ -7696,7 +7696,7 @@ section#main div.col-sm-12 div#highlight h1 {
   width: 60%;
   margin: 0 auto;
 }
-section#main div.col-sm-12 div#highlight p {
+section.main div.col-sm-12 div#highlight p {
   font-weight: 300;
   width: 75%;
   margin: 0 auto;
@@ -7704,55 +7704,55 @@ section#main div.col-sm-12 div#highlight p {
   font-size: 1.2em;
   text-align: center;
 }
-section#main div.col-sm-12 div#highlight p a {
+section.main div.col-sm-12 div#highlight p a {
   color: #fff;
   text-decoration: underline;
 }
-section#main div.col-sm-12 div#highlight p a:hover {
+section.main div.col-sm-12 div#highlight p a:hover {
   color: #000;
   background-color: #fff;
   text-decoration: none;
 }
-section#main div.col-sm-12 div#support {
+section.main div.col-sm-12 div#support {
   padding: 10px 100px;
-  background-color: #BF9101;
+  background-color: #9f9f9f;
   text-align: center;
 }
-section#main div.col-sm-12 div#support a img {
+section.main div.col-sm-12 div#support a img {
   max-height: 50px;
 }
-section#main div.col-sm-12 div#support p {
+section.main div.col-sm-12 div#support p {
   width: 60%;
   font-size: .9em;
   font-weight: lighter;
   line-height: 2em;
   margin: 20px auto 0 auto;
 }
-section#main div.col-sm-12 div#support p a {
+section.main div.col-sm-12 div#support p a {
   color: #fff !important;
   text-decoration: none !important;
 }
-section#main div.col-sm-12 div#support p a:hover {
+section.main div.col-sm-12 div#support p a:hover {
   color: #acacac;
   text-decoration: none;
 }
-section#main div.col-sm-12 div#support p a span {
+section.main div.col-sm-12 div#support p a span {
   font-weight: normal;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2em;
   display: block;
 }
-section#main div.col-sm-12 div#support p a span em {
+section.main div.col-sm-12 div#support p a span em {
   color: #333;
 }
-section#main div.col-sm-12 div.col-sm-4 > div {
+section.main div.col-sm-12 div.col-sm-4 > div {
   margin-left: -5px;
   margin-right: -15px;
   margin-bottom: 10px;
   position: relative;
 }
-section#main div.col-sm-12 div.col-sm-4 div.description {
+section.main div.col-sm-12 div.col-sm-4 div.description {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -7761,29 +7761,29 @@ section#main div.col-sm-12 div.col-sm-4 div.description {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
-section#main div.col-sm-12 div.col-sm-4 div.description:hover h3,
-section#main div.col-sm-12 div.col-sm-4 div.description:hover p {
+section.main div.col-sm-12 div.col-sm-4 div.description:hover h3,
+section.main div.col-sm-12 div.col-sm-4 div.description:hover p {
   color: #f2b801;
 }
-section#main div.col-sm-12 div.col-sm-4 div.description h3 {
+section.main div.col-sm-12 div.col-sm-4 div.description h3 {
   margin: 0 0 0 0;
   font-weight: 500;
   text-transform: uppercase;
 }
-section#main div.col-sm-12 div.col-sm-4 div.description p {
+section.main div.col-sm-12 div.col-sm-4 div.description p {
   display: none;
 }
-section#main div.col-sm-12 div#we-are {
+section.main div.col-sm-12 div#we-are {
   background-image: url('../images/jpg/we-are.jpg');
   background-repeat: no-repeat;
   min-height: 200px;
 }
-section#main div.col-sm-12 div#we-want {
+section.main div.col-sm-12 div#we-want {
   background-image: url('../images/jpg/we-want.jpg');
   background-repeat: no-repeat;
   min-height: 200px;
 }
-section#main div.col-sm-12 div#we-seek {
+section.main div.col-sm-12 div#we-seek {
   background-image: url('../images/jpg/we-seek.jpg');
   background-repeat: no-repeat;
   min-height: 200px;
@@ -8049,4 +8049,75 @@ div#cross-cutting div.card p {
   height: auto;
   margin: 0;
   padding: 0;
+}
+article.card {
+  margin-bottom: 20px;
+}
+article.card > div {
+  background-color: #fff;
+}
+article.card div.card-info {
+  padding: 20px;
+  height: 250px;
+}
+article.card div.card-info h3.card-title {
+  font-family: Optima;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+article.card div.card-info div.card-additional-info {
+  font-weight: lighter;
+  font-size: .85em;
+  font-style: italic;
+  margin: 0 0 15px;
+}
+article.card div.card-info div.card-details {
+  font-size: 13px;
+}
+article.news {
+  margin: 0;
+  background-color: #fff;
+  padding: 40px;
+}
+article.news .news-date {
+  font-weight: lighter;
+  font-style: italic;
+  border-bottom: solid 1px #843E0D;
+  margin-bottom: 40px;
+}
+article.news .news-details {
+  font-size: .9em;
+}
+article.news .news-source {
+  margin-top: 20px;
+}
+article.news .news-source a {
+  text-transform: uppercase;
+}
+section#front-left-right {
+  padding: 40px 80px;
+  background-color: #49A30E;
+  color: #fff;
+}
+section#front-left-right a {
+  color: #fff;
+  text-transform: none;
+}
+section#front-left-right h2.block-title {
+  font-family: Optima;
+}
+section#front-left-right .views-row {
+  min-height: 65px;
+  margin-bottom: 20px;
+}
+section#front-left-right .views-row .views-field-title {
+  margin-bottom: 10px;
+  font-size: .9em;
+}
+section#front-left-right .views-row .views-field-field-date,
+section#front-left-right .views-row .views-field-field-start-date {
+  color: #efefef;
+  font-style: italic;
+  font-size: .8em;
+  font-weight: lighter;
 }
