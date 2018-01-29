@@ -156,6 +156,17 @@
 </section>
 <?php endif; ?>
 
+<?php if (!empty($page['front_twitter']) || !empty($page['front_flickr'])): ?>
+    <section id="front-social-media" class="clearfix">
+        <div class="col-sm-6 col-xs-12">
+            <?php print render($page['front_twitter']); ?>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+            <?php print render($page['front_flickr']); ?>
+        </div>
+    </section>
+<?php endif; ?>
+
 <section class="main clearfix">
     <div class="col-sm-12">
         <?php print render($page['front_footer']); ?>

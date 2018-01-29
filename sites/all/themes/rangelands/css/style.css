@@ -8124,3 +8124,12 @@ section#front-left-right .views-row .views-field-field-start-date {
   font-size: .8em;
   font-weight: lighter;
 }
+section#front-social-media {
+  background-color: #fff;
+  padding: 40px 80px;
+}
+section#front-social-media h2.block-title {
+  font-size: 27px;
+  line-height: 36px;
+  font-weight: 300;
+}
