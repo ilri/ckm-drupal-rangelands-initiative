@@ -7632,6 +7632,9 @@ section.main div.main-container.container-fluid ul.nav-tabs {
 section.main div.col-sm-12 {
   padding: 0 0 0 0;
 }
+section.main div.col-sm-12 section#block-views-home-slideshow-block {
+  position: relative;
+}
 section.main div.col-sm-12 section#block-views-home-slideshow-block span.vscc_controls_previous a {
   position: absolute;
   top: 50%;
